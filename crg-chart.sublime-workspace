@@ -1,0 +1,730 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"s",
+				"script"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"empi",
+				"empid"
+			],
+			[
+				"sear",
+				"search"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/common/employeeService.js",
+			"settings":
+			{
+				"buffer_size": 4272,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/jpendem/AppData/Roaming/Sublime Text 3/Packages/LESS/README.md",
+			"settings":
+			{
+				"buffer_size": 3355,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app/appheader/appheader.less",
+			"settings":
+			{
+				"buffer_size": 1995,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/app/home/home.less",
+			"settings":
+			{
+				"buffer_size": 151,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/index.html",
+			"settings":
+			{
+				"buffer_size": 754,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/jpendem/AppData/Roaming/Sublime Text 3/Packages/AngularJS/AngularJS-sublime-package.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 3690,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app/person/person.less",
+			"settings":
+			{
+				"buffer_size": 3129,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/app/appheader/appheader.spec.js",
+			"settings":
+			{
+				"buffer_size": 770,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<div class=\"container-fluid legend-area\" ng-init=\"init()\">\n	<script type=\"text/ng-template\" id=\"customTemplate.html\">\n	<a>\n		<table class=\"type-ah\">\n			<tr>\n				<td class=\"one\"  bind-html-unsafe=\"match.model.firstName | typeaheadHighlight:query\"></td>\n				<td class=\"one\">{{ match.model.lastName }},</td>\n				<td class=\"two\">{{ match.model.department }}</td>\n			</tr>\n		</table>	\n	  </a>\n	  </script>\n	<div class=\"pull-left pageheader-area-label\"></div>\n	<div>\n		<div class=\"pull-left legend-info\">\n			<div class=\"legend-label legend-label-direct\">DIRECT &amp; MATRIX EMPLOYEE</div>\n			<div class=\"legend-label legend-label-admin\">ADMIN EMPLOYEE</div>\n			<!-- <div class=\"pull-left legend-label legend-label-contractor\">CONTRACTOR</div> -->\n		</div> \n		<div class=\"form-inline\">\n			<img class=\"img-search\" src = \"assets/u303.png\"/>			\n			<div class=\"pull-right form-group mobile-div form-inline\">					\n				<label class=\"search-label\">SEARCH:</label>\n			    <input type=\"text\" ng-model=\"asyncSelected\" typeahead-template-url=\"customTemplate.html\" class=\"search-input\" typeahead=\"name.firstName+' '+name.lastName+', '+name.department for name in search($viewValue) | limitTo:4\">				\n				<a class=\"close\"><img src = \"assets/u317.png\" title=\"Close\"/></a>\n			</div>\n			\n		</div>\n	</div>\n</div>",
+			"file": "src/app/appheader/appheader.tpl.html",
+			"file_size": 1317,
+			"file_write_time": 130679549444511563,
+			"settings":
+			{
+				"buffer_size": 1288,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/jpendem/Documents/emc-jade/src/app/searchResult/searchResult.tpl.html",
+			"settings":
+			{
+				"buffer_size": 1114,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/app/appheader/appheader.js",
+			"settings":
+			{
+				"buffer_size": 1114,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ina",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"git clone git://github.com/angular-ui/AngularJS-sublime-package.git AngularJS",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/appheader",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/home",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/person",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/common",
+		"/C/Users/jpendem/Documents/emc-jade",
+		"/C/Users/jpendem/Documents/emc-jade/src",
+		"/C/Users/jpendem/Documents/emc-jade/src/app",
+		"/C/Users/jpendem/Documents/emc-jade/src/app/searchResult"
+	],
+	"file_history":
+	[
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/person/person.tpl.html",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/home/home.tpl.html",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/appheader/appHeader.tpl.html",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/appheader/appheader.tpl.html~RFfc58577.TMP",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/appheader/appheader.tpl.html",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/appheader/appheader.less",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/home/home.js",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/home/home.spec.js",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/person/person.js",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/legendArea/legendArea.spec.js",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/person/person.less",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/legendArea/legendArea.less",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/legendArea/legendArea.tpl.html",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/legendArea/legendArea.js",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/appheader/appheader.spec.js",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/appheader/appheader.js",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/index.html",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/home/home.less",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/person/person.less~RF524d295.TMP",
+		"/C/Users/jpendem/Downloads/Less-2015-02-02/Less/less/myLess.less",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/common/.subld76.tmp",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/common/exceptionHandler.js",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/pagefooter/pagefooter.tpl.html",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/pageheader/pageheader.tpl.html",
+		"/C/Users/jpendem/Documents/emc-org-chart/build/index.html",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/common/employeeService.js~RFed83d7a.TMP",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/common/employeeService.js",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/appheader/searchHeader",
+		"/C/Users/jpendem/Documents/emc-org-chart/build/src/app/appheader/appheader.js",
+		"/C/Users/jpendem/Documents/emc-org-chart/build/src/app/pageheader/pageheader.js",
+		"/C/Users/jpendem/Documents/emc-org-chart/build/src/app/home/home.js",
+		"/D/jee14u/index.html",
+		"/C/Users/jpendem/Documents/emc-org-chart/build/templates-app.js",
+		"/C/Users/jpendem/Documents/emc-org-chart/build/src/app/app.js",
+		"/C/Users/jpendem/Documents/emc-org-chart/crg-chart.sublime-project",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/pageheader/pageheader.js",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/app.js",
+		"/C/Users/jpendem/Documents/emc-org-chart/src/app/app.spec.js",
+		"/C/Users/jpendem/Documents/emc-org-chart/build/src/app/search/search.js",
+		"/C/Users/jpendem/Documents/emc-org-chart/build/vendor/angular/angular.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"search-input",
+			".close",
+			".clo",
+			"mobile-div",
+			"person-detail-comp",
+			".c",
+			"	\n",
+			"mobile",
+			"search-input",
+			"img-search",
+			".search-input",
+			"mobile-div",
+			"home-row",
+			"search-input",
+			"mobile-div",
+			"close",
+			"search-input",
+			".mobile-div",
+			"legend-label-direct",
+			";\n",
+			"left:42px;",
+			"@media",
+			"@media (min-width: 970px)",
+			"search-input",
+			"search",
+			"searcx",
+			"\">\n",
+			"data",
+			"headerText",
+			"mask",
+			"legend-info",
+			"person-detail-name",
+			"headerColorDirect",
+			"radius",
+			"4",
+			"employee",
+			"alert",
+			"length",
+			"state"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 10,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/common/employeeService.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								967,
+								967
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 486.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/jpendem/AppData/Roaming/Sublime Text 3/Packages/LESS/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3164,
+								3164
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1998.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/app/appheader/appheader.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1995,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1727.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/app/home/home.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 754,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								489,
+								489
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/jpendem/AppData/Roaming/Sublime Text 3/Packages/AngularJS/AngularJS-sublime-package.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3690,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/app/person/person.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								230,
+								230
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/app/appheader/appheader.spec.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 770,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								194,
+								194
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/app/appheader/appheader.tpl.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								304,
+								304
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/Users/jpendem/Documents/emc-jade/src/app/searchResult/searchResult.tpl.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								294,
+								294
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/app/appheader/appheader.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "crg-chart.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 226.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

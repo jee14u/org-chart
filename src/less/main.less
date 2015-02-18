@@ -1,0 +1,51 @@
+@import '../../vendor/bootstrap/less/bootstrap.less';
+
+@import 'variables.less';
+
+/**
+ * Typography
+ */
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Regular'), local('Roboto-Regular'), url(fonts/Roboto-Regular.woff) format('woff');
+}
+
+.page-header {
+  margin-top: 60px;
+background: rgb(78,80,82);
+color: #ffffff;
+  &:first-child {
+    // margin-top: 20px;
+  }
+}
+
+h2 {
+  margin: 20px 0;
+  color: #666;
+}
+
+.navbar {
+  margin-top: 20px;
+  
+  small {
+    font-size: 60%;
+  }
+
+  &-header-icon{
+    padding: 10px;
+  }
+}
+
+.pageheader-text {
+  color: rgb(156, 204, 231);
+}
+
+@import '../app/home/home.less';
+@import '../app/person/person.less';
+@import '../app/appheader/appheader.less';
+@import '../app/pageheader/pageheader.less';
+@import '../app/pagefooter/pagefooter.less';
+@import  '../app/topOfChart/topOfChart.less';

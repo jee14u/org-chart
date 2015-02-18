@@ -1,0 +1,28 @@
+<div class="home" resize>
+	<div cg-busy="{ promise: myPromise, message: 'Please wait...' }"></div>
+	
+	<div class="home-row-left">
+		<person-widget class="home-row-center" data="data.employee" show-collapse="data.employee.hasOwnProperty('managerId')" id="pm"/>
+	</div>
+	<div class="row home-row" ng-show="data">
+		<svg height="50" width="100%">			
+			<g ng-if="data.reporters.length > 1">
+				<line ng-attr-x1="{{middle}}" y1="0" ng-attr-x2="{{middle}}" y2="25" class="home-svg-line" />
+				<line ng-attr-x1="{{start}}" y1="25" ng-attr-x2="{{start}}" y2="50" class="home-svg-line" />
+				<line ng-attr-x1="{{start}}" y1="25" ng-attr-x2="{{end}}" y2="25" class="home-svg-line" />
+				<line ng-attr-x1="{{end}}" y1="25" ng-attr-x2="{{end}}" y2="50" class="home-svg-line" />
+			</g>
+			<g ng-if="data.reporters.length == 1">
+				<line ng-attr-x1="{{middle}}" y1="0" ng-attr-x2="{{middle}}" y2="50" class="home-svg-line" />
+			</g>
+		</svg>
+	</div>
+	<div class="row home-row" ng-class="{ 'home-row-center': data.reporters.length == 1 }">
+		<div  ng-repeat="person in data.reporters">
+			<person-widget class="pull-left" id="{{ 'p' + $index }}"
+				data="person" 
+				show-expand="person.reporters.length > 0">
+			</person-widget>
+		</div>
+	</div>
+</div>

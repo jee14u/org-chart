@@ -1,0 +1,40 @@
+<div class="person-widget person-widget-customize" ng-show="data">
+	<div cg-busy="{ promise: myPromise, message: 'Please wait...'}"></div>
+	<div class="row up-arrow" ng-if="showCollapse">				 
+            <img ng-click="collapse()" src="assets/arrow_up.png"/>
+	</div>
+	<div class="row person-header" ng-class= "'person-header-' + data.employeeType" >{{data.title}}</div>
+	<div class="row person-content">
+		<div>
+			<div class="col-md-6 person-img clear-f">
+				<img class="" ng-src="assets/{{data.image}}"></img>
+				<img class="mask"></img>
+			</div>
+			<div class="col-md-6 person-detail">
+				<div class="person-detail-name">{{data.lastName | uppercase}}, {{data.firstName | uppercase}}</div>
+				<div class="person-detail-tel">
+					<a href="tel://{{data.mobilePhone}}">{{data.mobilePhone}}</a>
+				</div>
+				<div class="person-detail-email">
+					<a href="mailto:{{data.email}}"><img src="assets/mail_ico.png"> {{data.email}}</a>
+				</div>
+				<div class="person-detail-comp">{{data.company}}</div>
+				<div class="person-detail-ext">Ext: {{data.ext}}</div>
+			</div>
+		</div>
+	</div>	
+	<div class="person-detail-matrix-bar" ng-class="{ 'person-detail-matrix-bar-content': data.matrixManager }">
+		<span ng-if="data.matrixManager">
+		Matrix Manager: <a href="" ng-click="gotoMatrixManager(data.matrixManager.employeeId)">{{data.matrixManager.lastName}}, {{data.matrixManager.firstName}}</a>
+		</span>
+	</div>
+	<div ng-if="showExpand">		
+		<div class="svg">
+			<svg height="10" width="2">
+			  <line x1="0" y1="0" x2="0" y2="200" class="svg-stroke" />
+			</svg>
+			<div class="clearfix"></div>				
+            <img ng-click="expand()" src="assets/arrow_down.png"/>			
+		</div>
+	</div>
+</div>

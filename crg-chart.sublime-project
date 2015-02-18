@@ -1,0 +1,39 @@
+{
+	"build_systems":
+	[
+		{
+			"cmd":
+			[
+				"ls"
+			],
+			"name": "List"
+		}
+	],
+	"folders":
+	[
+		{
+			"folder_exclude_patterns":
+			[
+				"backup"
+			],
+			"follow_symlinks": true,
+			"path": "src"
+		},
+		{
+			"file_exclude_patterns":
+			[
+				"*.css"
+			],
+			"follow_symlinks": true,
+			"name": "Documentation",
+			"path": "docs"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\Users\\jpendem\\Documents\\emc-jade"
+		}
+	],
+	"settings":
+	{
+	}
+}

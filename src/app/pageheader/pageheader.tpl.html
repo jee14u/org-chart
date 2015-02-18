@@ -1,0 +1,34 @@
+<div class="container-fluid pageheader-container" id="header">
+  <div class="navbar navbar-default page-header pageheader-navcustom">
+    <div class="navbar-header pageheader-inner">
+      <img src="assets/u49.png" class="navbar-header-icon"> <span>{{ appName }}</span>
+      <div class="btn-group pull-right" dropdown is-open="status.isopen">
+        <button type="button" class="btn btn-primary dropdown-toggle btn-container" dropdown-toggle>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-style" role="menu">
+          <li ui-sref-active="inactive" class="li-menu-style">
+            <a href ui-sref="home">
+              Account Details
+            </a>
+          </li>
+          <li ui-sref-active="inactive" class="li-menu-style">
+            <a href ui-sref="about">
+              Profile Settings
+            </a>
+          </li>
+          <li>
+            <a href="#" class="li-menu-style">
+              Preference
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Logout
+            </a>
+          </li>
+        </ul>
+      </div>
+      <span class="pull-right pull-right-textsize">{{userName}} &nbsp;</span>
+    </div>
+  </div>
+</div>
